@@ -10,12 +10,8 @@ Projeto prático desenvolvido para o Bootcamp II de Engenharia de Software. O ob
   - O status é definido automaticamente como Pendente no momento do cadastro.
 - Visualizar Chamados: Exibe uma listagem formatada e limpa no terminal com todas as informações dos chamados salvos.
 
-  Tecnologias Utilizadas
-- Python 3 (Lógica de programação e tratamento de dados)
-- Git e GitHub (Versionamento e organização do repositório)
-
   Como Executar o Projeto
-1. Certifique-se de ter o Python 3 instalado no seu computador.
+1. Certifique-se de ter o Python esta instalado no seu computador.
 2. Baixe ou clone este repositório.
 3. Abra o seu terminal na pasta raiz do projeto e entre na pasta `src`:
    ```bash
