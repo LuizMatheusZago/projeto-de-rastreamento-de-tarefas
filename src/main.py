@@ -3,7 +3,7 @@ def ler(mensagem):
 
 
 def exibir_menu():
-    print("\n===== HELPDESK SIMPLES =====")
+    print("\n==== HELPDESK SIMPLES ====")
     print("1. Cadastrar novo chamado")
     print("2. Visualizar chamados cadastrados")
     print("3. Sair da aplicação")
