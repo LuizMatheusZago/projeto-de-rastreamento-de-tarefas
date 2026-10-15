@@ -14,14 +14,14 @@ def cadastrar_chamado(chamados):
 
     titulo = ler("Título do problema: ")
     while titulo == "":
-        print("❌ O título não pode ser vazio.")
+        print(" O título não pode ser vazio.")
         titulo = ler("Título do problema: ")
 
     descricao = ler("Descrição detalhada: ")
 
     prioridade = ler("Prioridade (Alta, Média ou Baixa): ").capitalize()
     while prioridade not in ("Alta", "Média", "Media", "Baixa"):
-        print("❌ Prioridade inválida! Use Alta, Média ou Baixa.")
+        print(" Prioridade inválida! Use Alta, Média ou Baixa.")
         prioridade = ler("Prioridade (Alta, Média ou Baixa): ").capitalize()
     if prioridade == "Media":
         prioridade = "Média"
@@ -69,7 +69,7 @@ def main():
             print("Saindo da aplicação. Até logo!")
             break
         else:
-            print("❌ Opção inválida! Escolha 1, 2 ou 3.")
+            print(" Opção inválida! Escolha 1, 2 ou 3.")
 
 
 if __name__ == "__main__":
